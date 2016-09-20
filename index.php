@@ -13,7 +13,7 @@ header("Content-Security-Policy: script-src 'self';object-src 'none';style-src '
 <body>
 <h1>use csp from php header</h1>
 <iframe src="iframe.html" frameborder="0"></iframe>
-<iframe src="http://tedse.0fees.net/demo/iframe.html" frameborder="0"></iframe>
+<iframe src="//tedse.0fees.net/demo/iframe.html" frameborder="0"></iframe>
 <iframe src="no_iframe.php" frameborder="0"></iframe>
 <pre>
 <code>
